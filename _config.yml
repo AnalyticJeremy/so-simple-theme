@@ -6,6 +6,7 @@ description: a data science blog by Jeremy Peach
 logo: site-logo.png
 search: true
 url: https://analyticjeremy.github.io/blog
+baseurl: 
 
 # Jekyll configuration
 
@@ -42,9 +43,9 @@ owner:
   disqus-shortname:
   twitter: AnalyticJeremy
   facebook: #username
-  github: #username
+  github: AnalyticJeremy
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: jeremypeach
   instagram: #username
   flickr: #username
   tumblr: #username

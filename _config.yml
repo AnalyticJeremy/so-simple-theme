@@ -5,7 +5,7 @@ locale: en_US
 description: a data science blog by Jeremy Peach
 logo: site-logo.png
 search: true
-url: https://analyticjeremy.github.io/blog
+#url: https://analyticjeremy.github.io/blog
 baseurl: 
 
 # Jekyll configuration

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://analyticjeremy.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://analyticjeremy.github.io/blog/" rel="alternate" type="text/html" /><updated>2017-01-29T14:54:49-06:00</updated><id>https://analyticjeremy.github.io/blog/</id><title type="html">Any Means Necessary</title><subtitle>a data science blog by Jeremy Peach</subtitle><entry><title type="html">Hello World</title><link href="https://analyticjeremy.github.io/blog/articles/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2017-01-14T00:00:00-06:00</published><updated>2017-01-14T00:00:00-06:00</updated><id>https://analyticjeremy.github.io/blog/articles/hello-world</id><content type="html" xml:base="https://analyticjeremy.github.io/blog/articles/hello-world/">&lt;p&gt;So this is just your basic “hello world” post.  I’m testing my workflow for writing blog posts, which I hope will be…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;write posts using R markdown&lt;/li&gt;
+  &lt;li&gt;knit to MD&lt;/li&gt;
+  &lt;li&gt;commit to GitHub&lt;/li&gt;
+  &lt;li&gt;host with github.io&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Obviously there’s not much to this post… but we can only go up from here!&lt;/p&gt;</content><category term="sample-post" /><summary type="html">first post on this blog site</summary></entry></feed>

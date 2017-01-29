@@ -1,12 +1,12 @@
 # Site wide configuration
 
-title: Analytic Jeremy
+title: Any Means Necessary
 locale: en_US
 description: a data science blog by Jeremy Peach
 logo: site-logo.png
 search: true
 url: https://analyticjeremy.github.io/blog
-baseurl: 
+baseurl: ""
 
 # Jekyll configuration
 

@@ -1,11 +1,10 @@
 #!/bin/bash
 
-mv _config.yml _config.remote
-mv _config.local _config.yml
+if [ -f "_config.local" ]
+then
+  mv _config.yml _config.remote
+  mv _config.local _config.yml
+fi
 
 bundle exec jekyll serve
 
-cp _site/feed.xml .
-
-mv _config.yml _config.local
-mv _config.remote _config.yml

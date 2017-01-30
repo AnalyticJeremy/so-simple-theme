@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:4000/" rel="alternate" type="text/html" /><updated>2017-01-29T19:28:51-06:00</updated><id>http://127.0.0.1:4000/</id><title type="html">Any Means Necessary</title><subtitle>a data science blog by Jeremy Peach</subtitle><entry><title type="html">Workflow Test</title><link href="http://127.0.0.1:4000/articles/workflow-test/" rel="alternate" type="text/html" title="Workflow Test" /><published>2017-01-29T00:00:00-06:00</published><updated>2017-01-29T00:00:00-06:00</updated><id>http://127.0.0.1:4000/articles/workflow-test</id><content type="html" xml:base="http://127.0.0.1:4000/articles/workflow-test/">&lt;h2 id=&quot;r-markdown&quot;&gt;R Markdown&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://analyticjeremy.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://analyticjeremy.github.io/blog/" rel="alternate" type="text/html" /><updated>2017-01-29T20:54:49-06:00</updated><id>https://analyticjeremy.github.io/blog/</id><title type="html">Any Means Necessary</title><subtitle>a data science blog by Jeremy Peach</subtitle><entry><title type="html">Hello World</title><link href="https://analyticjeremy.github.io/blog/articles/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2017-01-14T00:00:00-06:00</published><updated>2017-01-14T00:00:00-06:00</updated><id>https://analyticjeremy.github.io/blog/articles/hello-world</id><content type="html" xml:base="https://analyticjeremy.github.io/blog/articles/hello-world/">&lt;p&gt;So this is just your basic “hello world” post.  I’m testing my workflow for writing blog posts, which I hope will be…&lt;/p&gt;
 
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&quot;http://rmarkdown.rstudio.com&quot;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;write posts using R markdown&lt;/li&gt;
+  &lt;li&gt;knit to MD&lt;/li&gt;
+  &lt;li&gt;commit to GitHub&lt;/li&gt;
+  &lt;li&gt;host with github.io&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
+&lt;h2 id=&quot;r-markdown&quot;&gt;R Markdown&lt;/h2&gt;
+
+&lt;p&gt;This post is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
+For more details on using R Markdown see &lt;a href=&quot;http://rmarkdown.rstudio.com&quot;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;With R Markdown, I can display and execute chunks of R code.&lt;/p&gt;
 
 &lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -18,19 +28,28 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;including-plots&quot;&gt;Including Plots&lt;/h2&gt;
+&lt;p&gt;This greatly increases the reproducibility of the blog posts because the analysis code and the blog post are all in the same document.
+The code doesn’t have to be copied from R and pasted into an HTML file.  That would make it possible (perhaps even &lt;em&gt;likely&lt;/em&gt;) that my
+R code and results would get out of sync with the results I’m describing in the blog post.  By putting the code right in the blog post,
+the two will stay synched up.&lt;/p&gt;
 
-&lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
+&lt;h3 id=&quot;plots&quot;&gt;Plots&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000/images/workflow-test-pressure-1.png&quot; alt=&quot;plot of chunk pressure&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Not only can these blog posts show the output of R code, they can also show plots!&lt;/p&gt;
 
-&lt;p&gt;Note that the &lt;code class=&quot;highlighter-rouge&quot;&gt;echo = FALSE&lt;/code&gt; parameter was added to the code chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;</content><category term="sample-post" /><summary type="html">Can I knit an Rmd file to a Jekyll post?</summary></entry><entry><title type="html">Hello World</title><link href="http://127.0.0.1:4000/articles/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2017-01-14T00:00:00-06:00</published><updated>2017-01-14T00:00:00-06:00</updated><id>http://127.0.0.1:4000/articles/hello-world</id><content type="html" xml:base="http://127.0.0.1:4000/articles/hello-world/">&lt;p&gt;So this is just your basic “hello world” post.  I’m testing my workflow for writing blog posts, which I hope will be…&lt;/p&gt;
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pressure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;write posts using R markdown&lt;/li&gt;
-  &lt;li&gt;knit to MD&lt;/li&gt;
-  &lt;li&gt;commit to GitHub&lt;/li&gt;
-  &lt;li&gt;host with github.io&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://analyticjeremy.github.io/blog/images/2017-01-14-hello-world-pressure-1.png&quot; alt=&quot;plot of chunk pressure&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Obviously there’s not much to this post… but we can only go up from here!&lt;/p&gt;</content><category term="sample-post" /><summary type="html">first post on this blog site</summary></entry></feed>
+&lt;h2 id=&quot;knitr&quot;&gt;knitr&lt;/h2&gt;
+
+&lt;p&gt;Using the &lt;a href=&quot;https://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt; package by Yihui Xie, the R Markdown post can be transformed to standard Jekyll markdown.
+I’m using a (slightly) modified version of the workflow process created by &lt;a href=&quot;https://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html&quot;&gt;Nicole White&lt;/a&gt;.
+I made some slight modifications to the &lt;code class=&quot;highlighter-rouge&quot;&gt;r2jekyll.R&lt;/code&gt; that she developed.  Like everything else associated with the creation of this blog,
+you can find this file in my &lt;a href=&quot;https://github.com/AnalyticJeremy/blog&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
+&lt;p&gt;The last component of the pipeline is &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a Ruby bundle for creating a blog site from static files.  These
+files are shared on &lt;code class=&quot;highlighter-rouge&quot;&gt;github.io&lt;/code&gt;.&lt;/p&gt;</content><category term="sample-post" /><category term="r-markdown" /><category term="jekyll" /><summary type="html">first post on this blog site</summary></entry></feed>

@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://analyticjeremy.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://analyticjeremy.github.io/blog/" rel="alternate" type="text/html" /><updated>2017-01-29T14:54:49-06:00</updated><id>https://analyticjeremy.github.io/blog/</id><title type="html">Any Means Necessary</title><subtitle>a data science blog by Jeremy Peach</subtitle><entry><title type="html">Hello World</title><link href="https://analyticjeremy.github.io/blog/articles/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2017-01-14T00:00:00-06:00</published><updated>2017-01-14T00:00:00-06:00</updated><id>https://analyticjeremy.github.io/blog/articles/hello-world</id><content type="html" xml:base="https://analyticjeremy.github.io/blog/articles/hello-world/">&lt;p&gt;So this is just your basic “hello world” post.  I’m testing my workflow for writing blog posts, which I hope will be…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:4000/" rel="alternate" type="text/html" /><updated>2017-01-29T19:28:51-06:00</updated><id>http://127.0.0.1:4000/</id><title type="html">Any Means Necessary</title><subtitle>a data science blog by Jeremy Peach</subtitle><entry><title type="html">Workflow Test</title><link href="http://127.0.0.1:4000/articles/workflow-test/" rel="alternate" type="text/html" title="Workflow Test" /><published>2017-01-29T00:00:00-06:00</published><updated>2017-01-29T00:00:00-06:00</updated><id>http://127.0.0.1:4000/articles/workflow-test</id><content type="html" xml:base="http://127.0.0.1:4000/articles/workflow-test/">&lt;h2 id=&quot;r-markdown&quot;&gt;R Markdown&lt;/h2&gt;
+
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&quot;http://rmarkdown.rstudio.com&quot;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;including-plots&quot;&gt;Including Plots&lt;/h2&gt;
+
+&lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000/images/workflow-test-pressure-1.png&quot; alt=&quot;plot of chunk pressure&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that the &lt;code class=&quot;highlighter-rouge&quot;&gt;echo = FALSE&lt;/code&gt; parameter was added to the code chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;</content><category term="sample-post" /><summary type="html">Can I knit an Rmd file to a Jekyll post?</summary></entry><entry><title type="html">Hello World</title><link href="http://127.0.0.1:4000/articles/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2017-01-14T00:00:00-06:00</published><updated>2017-01-14T00:00:00-06:00</updated><id>http://127.0.0.1:4000/articles/hello-world</id><content type="html" xml:base="http://127.0.0.1:4000/articles/hello-world/">&lt;p&gt;So this is just your basic “hello world” post.  I’m testing my workflow for writing blog posts, which I hope will be…&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;write posts using R markdown&lt;/li&gt;

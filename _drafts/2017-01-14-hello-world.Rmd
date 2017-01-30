@@ -24,19 +24,8 @@ For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 With R Markdown, I can display and execute chunks of R code.
 
-
-```r
+```{r cars}
 summary(cars)
-```
-
-```
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
 ```
 
 This greatly increases the reproducibility of the blog posts because the analysis code and the blog post are all in the same document.
@@ -48,12 +37,9 @@ the two will stay synched up.
 
 Not only can these blog posts show the output of R code, they can also show plots!
 
-
-```r
+```{r pressure}
 plot(pressure)
 ```
-
-![plot of chunk pressure]({{ site.url }}/images/2017-01-14-hello-world-pressure-1.png)
 
 ## knitr
 

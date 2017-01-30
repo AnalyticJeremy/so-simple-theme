@@ -7,7 +7,7 @@ categories: articles
 tags: [sample-post, r-markdown, jekyll]
 comments: false
 share: true
-modified: 2017-01-29T19:34:50-06:00
+modified: 2017-01-29 19:34:50 -0600
 ---
 
 So this is just your basic "hello world" post.  I'm testing my workflow for writing blog posts, which I hope will be...

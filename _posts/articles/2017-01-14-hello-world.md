@@ -7,12 +7,12 @@ categories: articles
 tags: [sample-post, r-markdown, jekyll]
 comments: false
 share: true
-modified: 2017-01-29T19:34:50-06:00
+modified: 2017-02-04 15:18:50 -0600
 ---
 
 So this is just your basic "hello world" post.  I'm testing my workflow for writing blog posts, which I hope will be...
 
-* write posts using R markdown
+* write posts using R Markdown
 * knit to MD
 * commit to GitHub
 * host with github.io
@@ -65,3 +65,10 @@ you can find this file in my [GitHub repository](https://github.com/AnalyticJere
 ## Jekyll
 The last component of the pipeline is [Jekyll](https://jekyllrb.com/), a Ruby bundle for creating a blog site from static files.  These
 files are shared on `github.io`.
+
+## UPDATE!
+So I got all of this set up... learning to use Jekyll and getting R Markdown to play nice with it.  Then I learn that Yihui Xie has
+just released a new tool called [blogdown](https://github.com/rstudio/blogdown) that simplifies the process of converting R Markdown to
+a blog post.  However, his new tool is using [Hugo](https://gohugo.io/) as the static website engine.  Since I've already got all of this
+setup, I'm going to keep it.  But if anyone else out there wants to use R Markdown for blogging, I would definitely recommend that you
+check out blogdown instead of following my path.

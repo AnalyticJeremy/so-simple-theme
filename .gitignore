@@ -6,3 +6,6 @@ codekit-config.json
 node_modules
 .sass-cache
 .jekyll-metadata
+_drafts/.Rhistory
+_drafts/\{\{\ site.url\ \}\}
+

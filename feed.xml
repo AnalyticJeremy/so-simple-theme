@@ -1,29 +1,32 @@
-﻿---
-# Original by snaptortoise on GitHub
-# https://github.com/snaptortoise/jekyll-rss-feeds/
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>{{ site.name | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
-		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-		{% for post in site.posts limit:10 %}
+		<title>Any Means Necessary</title>
+		<description>a data science blog by Jeremy Peach</description>		
+		<link>https://analyticjeremy.github.io/blog</link>
+		<atom:link href="https://analyticjeremy.github.io/blog/feed-full.script.xml" rel="self" type="application/rss+xml" />
+		
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author.name %}
-					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-				{% endif %}        
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
-				{% else %}
-					<description>{{ post.content | xml_escape }}</description>
-				{% endif %}
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<title>Predicting Peng's Podcasts - Part 1</title>
+				        
+				
+					<description>forecasting Roger Peng's podcasting output</description>
+				
+				<pubDate>Tue, 07 Mar 2017 00:00:00 -0600</pubDate>
+				<link>https://analyticjeremy.github.io/blog/articles/predicting-peng-1/</link>
+				<guid isPermaLink="true">https://analyticjeremy.github.io/blog/articles/predicting-peng-1/</guid>
 			</item>
-		{% endfor %}
+		
+			<item>
+				<title>Hello World</title>
+				        
+				
+					<description>first post on this blog site</description>
+				
+				<pubDate>Sat, 14 Jan 2017 00:00:00 -0600</pubDate>
+				<link>https://analyticjeremy.github.io/blog/articles/hello-world/</link>
+				<guid isPermaLink="true">https://analyticjeremy.github.io/blog/articles/hello-world/</guid>
+			</item>
+		
 	</channel>
 </rss>

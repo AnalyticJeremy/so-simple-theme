@@ -8,6 +8,6 @@ fi
 
 bundle exec jekyll build
 
-#cp _site/feed.xml .
-#cp _site/feed-r.xml .
+cp _site/feed-full.script.xml ./feed.xml
+cp _site/feed-r.script.xml ./feed-r.xml
 

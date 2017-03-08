@@ -1,55 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://analyticjeremy.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://analyticjeremy.github.io/blog/" rel="alternate" type="text/html" /><updated>2017-01-29T20:54:49-06:00</updated><id>https://analyticjeremy.github.io/blog/</id><title type="html">Any Means Necessary</title><subtitle>a data science blog by Jeremy Peach</subtitle><entry><title type="html">Hello World</title><link href="https://analyticjeremy.github.io/blog/articles/hello-world/" rel="alternate" type="text/html" title="Hello World" /><published>2017-01-14T00:00:00-06:00</published><updated>2017-01-14T00:00:00-06:00</updated><id>https://analyticjeremy.github.io/blog/articles/hello-world</id><content type="html" xml:base="https://analyticjeremy.github.io/blog/articles/hello-world/">&lt;p&gt;So this is just your basic “hello world” post.  I’m testing my workflow for writing blog posts, which I hope will be…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;write posts using R markdown&lt;/li&gt;
-  &lt;li&gt;knit to MD&lt;/li&gt;
-  &lt;li&gt;commit to GitHub&lt;/li&gt;
-  &lt;li&gt;host with github.io&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;r-markdown&quot;&gt;R Markdown&lt;/h2&gt;
-
-&lt;p&gt;This post is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
-For more details on using R Markdown see &lt;a href=&quot;http://rmarkdown.rstudio.com&quot;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;With R Markdown, I can display and execute chunks of R code.&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;This greatly increases the reproducibility of the blog posts because the analysis code and the blog post are all in the same document.
-The code doesn’t have to be copied from R and pasted into an HTML file.  That would make it possible (perhaps even &lt;em&gt;likely&lt;/em&gt;) that my
-R code and results would get out of sync with the results I’m describing in the blog post.  By putting the code right in the blog post,
-the two will stay synched up.&lt;/p&gt;
-
-&lt;h3 id=&quot;plots&quot;&gt;Plots&lt;/h3&gt;
-
-&lt;p&gt;Not only can these blog posts show the output of R code, they can also show plots!&lt;/p&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pressure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://analyticjeremy.github.io/blog/images/2017-01-14-hello-world-pressure-1.png&quot; alt=&quot;plot of chunk pressure&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;knitr&quot;&gt;knitr&lt;/h2&gt;
-
-&lt;p&gt;Using the &lt;a href=&quot;https://yihui.name/knitr/&quot;&gt;knitr&lt;/a&gt; package by Yihui Xie, the R Markdown post can be transformed to standard Jekyll markdown.
-I’m using a (slightly) modified version of the workflow process created by &lt;a href=&quot;https://nicolewhite.github.io/2015/02/07/r-blogging-with-rmarkdown-knitr-jekyll.html&quot;&gt;Nicole White&lt;/a&gt;.
-I made some slight modifications to the &lt;code class=&quot;highlighter-rouge&quot;&gt;r2jekyll.R&lt;/code&gt; that she developed.  Like everything else associated with the creation of this blog,
-you can find this file in my &lt;a href=&quot;https://github.com/AnalyticJeremy/blog&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
-&lt;p&gt;The last component of the pipeline is &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, a Ruby bundle for creating a blog site from static files.  These
-files are shared on &lt;code class=&quot;highlighter-rouge&quot;&gt;github.io&lt;/code&gt;.&lt;/p&gt;</content><category term="sample-post" /><category term="r-markdown" /><category term="jekyll" /><summary type="html">first post on this blog site</summary></entry></feed>
+﻿---
+# Original by snaptortoise on GitHub
+# https://github.com/snaptortoise/jekyll-rss-feeds/
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{{ site.name | xml_escape }}</title>
+		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
+		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+		{% for post in site.posts limit:10 %}
+			<item>
+				<title>{{ post.title | xml_escape }}</title>
+				{% if post.author.name %}
+					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
+				{% endif %}        
+				{% if post.excerpt %}
+					<description>{{ post.excerpt | xml_escape }}</description>
+				{% else %}
+					<description>{{ post.content | xml_escape }}</description>
+				{% endif %}
+				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+				<link>{{ site.url }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>

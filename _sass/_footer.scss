@@ -14,6 +14,14 @@
   a {
     color: lighten($text-color,20);
   }
+
+  span > a {
+    border-bottom:1px dotted #a2a2a2;
+  }
+
+  span > a:hover {
+    border-bottom-style:solid;
+  }
 }
 
 /*

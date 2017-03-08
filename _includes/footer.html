@@ -1,8 +1,12 @@
 {% if site.owner.google.ad-client and site.owner.google.ad-slot %}{% include ad-footer.html %}{% endif %}
 
-<span>
+<span id="footer-text">
 	&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/so-simple-jekyll-theme/" rel="nofollow">So Simple Theme</a>.<br />
+{% if page.layout == "post" %}
+	This blog post was made using <a href="https://yihui.name/knitr/" target="_blank">knitr</a>. The full source code can be found in <a href="https://github.com/{{ site.owner.github }}/blog/tree/master/_drafts" title="{{ site.owner.github}} on GitHub" target="_blank">my GitHub repository</a>.
+{% else %}
 	The full source code used to produce this blog posting can be found in <a href="https://github.com/{{ site.owner.github }}" title="{{ site.owner.github}} on GitHub" target="_blank">my GitHub repository</a>.
+{% endif %}
 </span>
 <div class="social-icons">
 	{% if site.owner.twitter %}<a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>{% endif %}
